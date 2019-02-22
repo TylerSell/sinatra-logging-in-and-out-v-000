@@ -10,6 +10,8 @@
       <h1>Welcome <%= Helpers.current_user(session).username %></h1>
       <h3>Your account balance is: <%= Helpers.current_user(session).balance %></h3>
       <a href="/logout">Logout</a>
+    <% else %>
+      <
 
   </body>
 </html>
