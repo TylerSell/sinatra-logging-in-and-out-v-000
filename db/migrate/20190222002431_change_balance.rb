@@ -1,5 +1,5 @@
 class ChangeBalance < ActiveRecord::Migration[5.1]
   def change
-    change_column :users, :column_name, :new_type
+    change_column :users, :balance, :float
   end
 end
